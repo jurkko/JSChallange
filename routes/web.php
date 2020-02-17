@@ -17,6 +17,6 @@ Route::get('/', function () {
 
 Route::get('/piano', 'PagesController@piano')->name('PagesController.piano');
 
-
 Route::get('/clock', 'PagesController@clock')->name('PagesController.clock');
 
+Route::get('/30daysJSchallange', 'PagesController@thirtydaysJSchallange')->name('PagesController.thirtydaysJSchallange');

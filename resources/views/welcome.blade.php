@@ -10,104 +10,41 @@
      
     </head>
     <body>
-        <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="">Some vanilla JS personal pet projects, to sharpen my JS skills</a>
-        </nav>
-        <div class="container">
-            <div class="row">
-                <div class="col-mine">
-                    <h4><a href="{{ route('PagesController.piano')}}">Task 1</a></h4>
-                    <h6>Piano</h6>
-                    <div class="icon">
-                        <img src="{{url('storage/icons/piano.png')}}" alt="Image"/>
-                    </div>
-                </div>
-                <div class="col-mine">
-                <h4><a href="{{ route('PagesController.clock')}}">Task 2</a></h4>
-                    <h6>Clock</h6>
-                    <div class="icon">
-                        <img src="{{url('storage/icons/clock.png')}}" alt="Image"/>
-                    </div>
-                   
-                </div>
-                <div class="col-mine">
-                    <h4>Task 3</h4>
-                </div>
-                <div class="col-mine">
-                    <h4>Task 4</h4>
-                </div>
-                <div class="col-mine">
-                    <h4>Task 5</h4>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Some vanilla JS projects that I build in my free time or from courses</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="navbar-button">
+                <a class="nav-link" href="{{ url('/')}}">Go home</a>
+                
+            </li>
+       
+      
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="welcome-div">
+                <a class="nav-link" href="{{ route('PagesController.thirtydaysJSchallange')}}">30 days JS challange</a>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-mine">
-                1 of 3
-                </div>
-                <div class="col-mine">
-                2 of 3
-                </div>
-                <div class="col-mine">
-                3 of 3
-                </div>
-                <div class="col-mine">
-                2 of 3
-                </div>
-                <div class="col-mine">
-                3 of 3
+            <div class="col-sm">
+                <div class="welcome-div">
+
                 </div>
             </div>
-            <div class="row">
-                <div class="col-mine">
-                1 of 3
-                </div>
-                <div class="col-mine">
-                2 of 3
-                </div>
-                <div class="col-mine">
-                3 of 3
-                </div>
-                <div class="col-mine">
-                2 of 3
-                </div>
-                <div class="col-mine">
-                3 of 3
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-mine">
-                1 of 3
-                </div>
-                <div class="col-mine">
-                2 of 3
-                </div>
-                <div class="col-mine">
-                3 of 3
-                </div>
-                <div class="col-mine">
-                2 of 3
-                </div>
-                <div class="col-mine">
-                3 of 3
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-mine">
-                1 of 3
-                </div>
-                <div class="col-mine">
-                2 of 3
-                </div>
-                <div class="col-mine">
-                3 of 3
-                </div>
-                <div class="col-mine">
-                2 of 3
-                </div>
-                <div class="col-mine">
-                3 of 3
+            <div class="col-sm">
+                <div class="welcome-div">
+
                 </div>
             </div>
         </div>
+    </div>
+
     </body>
 </html>

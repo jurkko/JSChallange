@@ -17,4 +17,9 @@ class PagesController extends Controller
         return view('clock.clock');
     }
     
+    public function thirtydaysJSchallange()
+    {
+        return view('30daysjavascriptchallange');
+    }
+    
 }

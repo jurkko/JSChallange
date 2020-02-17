@@ -4829,6 +4829,8 @@ input[type=button].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  text-align: center;
+  width: 100%;
 }
 
 .navbar-nav .nav-link {
@@ -11434,7 +11436,7 @@ form.form-delete {
    
   width: 30rem;
   height: 30rem;
-  background-color: aqua;
+  background-color: var(--orange);
   border: 20px solid black;
   border-radius: 50%;
   position: relative;
@@ -11461,3 +11463,15 @@ form.form-delete {
   transition: all 0.5s;
 }
 
+.navbar-button{
+  color: blanchedalmond;
+  margin: 0 auto;
+}
+
+.welcome-div{
+  margin-top: 5%;
+  width: 200px;
+  height: 250px;
+  background-color: brown;
+  border-radius: 15%;
+}
