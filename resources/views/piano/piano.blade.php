@@ -7,8 +7,8 @@
         <title>Laravel</title>
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/drums/drums.css') }}" rel="stylesheet">
-    <script type="text/javascript" src="{{ URL::asset('js/drums/drums.js') }}"></script>
+    <link href="{{ asset('css/piano/piano.css') }}" rel="stylesheet">
+    <script type="text/javascript" src="{{ URL::asset('js/piano/piano.js') }}"></script>
 
     </head>
     <body background="/images/pianoBackground.jpg">

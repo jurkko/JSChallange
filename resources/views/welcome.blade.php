@@ -16,14 +16,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-mine">
-                    <h4><a href="{{ route('PagesController.drums')}}">Task 1</a></h4>
-                    <h6>Drum kit</h6>
+                    <h4><a href="{{ route('PagesController.piano')}}">Task 1</a></h4>
+                    <h6>Piano</h6>
                     <div class="icon">
-                        <img src="{{url('storage/icons/drum-outline.png')}}" alt="Image"/>
+                        <img src="{{url('storage/icons/piano.png')}}" alt="Image"/>
                     </div>
                 </div>
                 <div class="col-mine">
-                    <h4>Task 2</h4>
+                <h4><a href="{{ route('PagesController.clock')}}">Task 2</a></h4>
+                    <h6>Clock</h6>
+                    <div class="icon">
+                        <img src="{{url('storage/icons/clock.png')}}" alt="Image"/>
+                    </div>
+                   
                 </div>
                 <div class="col-mine">
                     <h4>Task 3</h4>

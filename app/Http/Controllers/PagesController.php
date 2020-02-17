@@ -6,11 +6,15 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
-    public function drums()
+    public function piano()
     {
-     
-
-        return view('drums.drums');
-     
+        return view('piano.piano');
     }
+
+
+    public function clock()
+    {
+        return view('clock.clock');
+    }
+    
 }

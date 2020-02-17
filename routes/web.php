@@ -15,5 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/drums', 'PagesController@drums')->name('PagesController.drums');
+Route::get('/piano', 'PagesController@piano')->name('PagesController.piano');
+
+
+Route::get('/clock', 'PagesController@clock')->name('PagesController.clock');
 
