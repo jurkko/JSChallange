@@ -11475,3 +11475,49 @@ form.form-delete {
   background-color: brown;
   border-radius: 15%;
 }
+
+
+/*/////////////////Variables //////////////////*/
+
+
+:root{
+  --spacing: -10px;
+  --blur: -10px;
+}
+
+img{
+  
+  padding: var(--spacing);
+  filter: blur(var(--blur));
+}
+
+.responsive {
+  width: 95%;
+  height: 100%;
+  margin-left: 3%;
+
+
+}
+
+.controls{
+  text-align: center;
+  
+}
+
+.control{
+  color: aliceblue;
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 4px;
+  width: 100px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+
+}
+
+.controlsLabel{
+  color: white;
+  margin-right: 5px;
+  margin-left: 10px;
+}

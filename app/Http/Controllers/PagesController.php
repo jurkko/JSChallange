@@ -21,5 +21,11 @@ class PagesController extends Controller
     {
         return view('30daysjavascriptchallange');
     }
+
+    public function variables()
+    {
+        return view('variables.variables');
+    }
+    
     
 }

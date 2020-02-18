@@ -1,32 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>Laravel</title>
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-     
-    </head>
-    <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Some vanilla JS projects that I build in my free time or from courses</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-            <li class="navbar-button">
-                <a class="nav-link" href="#">30 days JS challange</a>
-            </li>
-            <li class="navbar-button">
-                <a class="nav-link" href="#">Wanna see some cool landing pages?</a>
-            </li>
-      
-            </ul>
-        </div>
-    </nav>
+@section('content')
         <div class="container">
             <div class="row">
                 <div class="col-mine">
@@ -45,7 +19,11 @@
                    
                 </div>
                 <div class="col-mine">
-                    <h4>Task 3</h4>
+                    <h4><a href="{{ route('PagesController.variables')}}">Task 2</a></h4>
+                        <h6>Updating CSS variables with JS</h6>
+                        <div class="icon">
+                            <img src="{{url('storage/icons/formula.png')}}" alt="Image"/>
+                        </div>
                 </div>
                 <div class="col-mine">
                     <h4>Task 4</h4>
@@ -126,5 +104,4 @@
                 </div>
             </div>
         </div>
-    </body>
-</html>
+@endsection
