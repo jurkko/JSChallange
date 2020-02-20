@@ -11,7 +11,6 @@ class PagesController extends Controller
         return view('piano.piano');
     }
 
-
     public function clock()
     {
         return view('clock.clock');
@@ -25,6 +24,16 @@ class PagesController extends Controller
     public function variables()
     {
         return view('variables.variables');
+    }
+
+    public function JSArrays()
+    {
+        return view('JSArrays.JSArrays');
+    }
+
+    function imageGalery()
+    {
+        return view('imageGalery.imageGalery');
     }
     
     
