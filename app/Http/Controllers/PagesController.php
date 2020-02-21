@@ -35,6 +35,11 @@ class PagesController extends Controller
     {
         return view('imageGalery.imageGalery');
     }
+
+    public function typeAheadFeature()
+    {
+        return view('typeAheadFeature.typeAheadFeature');
+    }
     
     
 }

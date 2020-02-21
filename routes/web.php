@@ -20,5 +20,7 @@ Route::get('/clock', 'PagesController@clock')->name('PagesController.clock');
 Route::get('/variables', 'PagesController@variables')->name('PagesController.variables');
 Route::get('/JSArrays', 'PagesController@JSArrays')->name('PagesController.JSArrays');
 Route::get('/imageGalery', 'PagesController@imageGalery')->name('PagesController.imageGalery');
+Route::get('/typeAheadFeature', 'PagesController@typeAheadFeature')->name('PagesController.typeAheadFeature');
+
 
 Route::get('/30daysJSchallange', 'PagesController@thirtydaysJSchallange')->name('PagesController.thirtydaysJSchallange');

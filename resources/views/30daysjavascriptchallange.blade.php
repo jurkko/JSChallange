@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="col-mine">
-                    <h4><a href="{{ route('PagesController.imageGalery')}}">Day 4</a></h4>
+                    <h4><a href="{{ route('PagesController.imageGalery')}}">Day 5</a></h4>
                     <h6>Manipulating with Arrays</h6>
                     <div class="icon">
                         <img src="{{url('storage/icons/insert.png')}}" alt="Image"/>
@@ -42,7 +42,11 @@
             </div>
             <div class="row">
                 <div class="col-mine">
-                1 of 3
+                    <h4><a href="{{ route('PagesController.typeAheadFeature')}}">Day 6</a></h4>
+                    <h6>Type Ahead Feature</h6>
+                    <div class="icon">
+                        <img src="{{url('storage/icons/insert.png')}}" alt="Image"/>
+                    </div>
                 </div>
                 <div class="col-mine">
                 2 of 3
