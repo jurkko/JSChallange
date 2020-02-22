@@ -49,7 +49,11 @@
                     </div>
                 </div>
                 <div class="col-mine">
-                2 of 3
+                    <h4><a href="{{ route('PagesController.JSArrays2')}}">Day 7</a></h4>
+                    <h6>Manipulating with Arrays 2</h6>
+                    <div class="icon">
+                        <img src="{{url('storage/icons/insert.png')}}" alt="Image"/>
+                    </div>
                 </div>
                 <div class="col-mine">
                 3 of 3

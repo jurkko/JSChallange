@@ -21,6 +21,6 @@ Route::get('/variables', 'PagesController@variables')->name('PagesController.var
 Route::get('/JSArrays', 'PagesController@JSArrays')->name('PagesController.JSArrays');
 Route::get('/imageGalery', 'PagesController@imageGalery')->name('PagesController.imageGalery');
 Route::get('/typeAheadFeature', 'PagesController@typeAheadFeature')->name('PagesController.typeAheadFeature');
-
+Route::get('/JSArrays2', 'PagesController@JSArrays2')->name('PagesController.JSArrays2');
 
 Route::get('/30daysJSchallange', 'PagesController@thirtydaysJSchallange')->name('PagesController.thirtydaysJSchallange');

@@ -41,5 +41,8 @@ class PagesController extends Controller
         return view('typeAheadFeature.typeAheadFeature');
     }
     
-    
+    public function JSArrays2()
+    {
+        return view('JSArrays2.JSArrays2');
+    }
 }
