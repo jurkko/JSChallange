@@ -45,4 +45,9 @@ class PagesController extends Controller
     {
         return view('JSArrays2.JSArrays2');
     }
+
+    public function canvas()
+    {
+        return view('canvas.canvas');
+    }
 }
