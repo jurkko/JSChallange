@@ -1,0 +1,39 @@
+.card-welcome:hover{
+
+
+}
+
+.face{
+    width: 300px;
+    height: 200px;
+    background-color: blueviolet;
+  
+}
+.face:hover{
+    opacity: 1;
+    transition: 0.5s;
+    
+}
+
+.face1{
+    background-color: #343A40;
+    z-index: 1;
+    opacity: 0.5;
+    transition: 0.5s;
+    transform: translateY(200px);
+}
+
+.face1:hover{
+    transform: translateY(0);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+.face2{
+    background-color: darkred;
+}
+
+.content{
+ 
+}

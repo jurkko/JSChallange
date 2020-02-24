@@ -50,4 +50,9 @@ class PagesController extends Controller
     {
         return view('canvas.canvas');
     }
+
+    public function tricks()
+    {
+        return view('tricks.tricks');
+    }
 }

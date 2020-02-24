@@ -23,6 +23,7 @@ Route::get('/imageGalery', 'PagesController@imageGalery')->name('PagesController
 Route::get('/typeAheadFeature', 'PagesController@typeAheadFeature')->name('PagesController.typeAheadFeature');
 Route::get('/JSArrays2', 'PagesController@JSArrays2')->name('PagesController.JSArrays2');
 Route::get('/canvas', 'PagesController@canvas')->name('PagesController.canvas');
+Route::get('/tricks', 'PagesController@tricks')->name('PagesController.tricks');
 
 
 
