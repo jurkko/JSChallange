@@ -63,16 +63,19 @@
                     </div>
                 </div>
                 <div class="col-mine">
-                    <h4><a href="{{ route('PagesController.tricks')}}">Day 8</a></h4>
+                    <h4><a href="{{ route('PagesController.tricks')}}">Day 9</a></h4>
                     <h6>Tricks</h6>
                     <div class="icon">
                         <img src="{{url('storage/icons/insert.png')}}" alt="Image"/>
                     </div>
                 </div>
                 <div class="col-mine">
-                3 of 3
+                    <h4><a href="{{ route('PagesController.checkBoxes')}}">Day 10</a></h4>
+                    <h6>Multiple checkboxes</h6>
+                    <div class="icon">
+                        <img src="{{url('storage/icons/insert.png')}}" alt="Image"/>
+                    </div>
                 </div>
-           
            
             </div>
             <div class="row">

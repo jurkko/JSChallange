@@ -55,4 +55,9 @@ class PagesController extends Controller
     {
         return view('tricks.tricks');
     }
+
+    public function checkBoxes()
+    {
+        return view('checkBoxes.checkBoxes');
+    }
 }
