@@ -80,7 +80,7 @@
             </div>
             <div class="row">
                 <div class="col-mine">
-                1 of 3
+                Test
                 </div>
                 <div class="col-mine">
                 2 of 3
