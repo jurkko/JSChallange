@@ -55,9 +55,21 @@ class PagesController extends Controller
     {
         return view('tricks.tricks');
     }
-
+    
     public function checkBoxes()
     {
         return view('checkBoxes.checkBoxes');
     }
+
+    public function videoPlayer()
+    {
+        return view('videoPlayer.videoPlayer');
+    }
+
+    public function konamiCode()
+    {
+        return view('konamiCode.konamiCode');
+    }
+
+    
 }

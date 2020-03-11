@@ -80,10 +80,18 @@
             </div>
             <div class="row">
                 <div class="col-mine">
-                Test
+                    <h4><a href="{{ route('PagesController.videoPlayer')}}">Day 11</a></h4>
+                    <h6>Video player</h6>
+                    <div class="icon">
+                        <img src="{{url('storage/icons/piano.png')}}" alt="Image"/>
+                    </div>              
                 </div>
                 <div class="col-mine">
-                2 of 3
+                <h4><a href="{{ route('PagesController.konamiCode')}}">Day 12</a></h4>
+                    <h6>KONAMI code</h6>
+                    <div class="icon">
+                        <img src="{{url('storage/icons/piano.png')}}" alt="Image"/>
+                    </div>    
                 </div>
                 <div class="col-mine">
                 3 of 3

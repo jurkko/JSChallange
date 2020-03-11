@@ -25,6 +25,8 @@ Route::get('/JSArrays2', 'PagesController@JSArrays2')->name('PagesController.JSA
 Route::get('/canvas', 'PagesController@canvas')->name('PagesController.canvas');
 Route::get('/tricks', 'PagesController@tricks')->name('PagesController.tricks');
 Route::get('/checkBoxes', 'PagesController@checkBoxes')->name('PagesController.checkBoxes');
+Route::get('/videoPlayer', 'PagesController@videoPlayer')->name('PagesController.videoPlayer');
+Route::get('/konamiCode', 'PagesController@konamiCode')->name('PagesController.konamiCode');
 
 
 Route::get('/30daysJSchallange', 'PagesController@thirtydaysJSchallange')->name('PagesController.thirtydaysJSchallange');
