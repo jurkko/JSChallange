@@ -2,8 +2,8 @@
 
 @section('content')
         <div class="container">
+
             <div class="row">
-                
                     <div class="col mine">
                         <a class="cardlink" href="{{ route('PagesController.piano')}}">
                         <h4>Piano</h4>
@@ -12,7 +12,155 @@
                             </div>
                         </a>
                     </div>
+
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.clock')}}">
+                        <h4>Clock</h4>
+                            <div class="icon">
+                            <img src="{{url('images/clock.png')}}" alt="clock"/>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.variables')}}">
+                        <h4>Variables</h4>
+                            <div class="icon">
+                                <img src="{{url('images/multiple.png')}}" alt="variables"/>
+                            </div>
+                        </a>
+                    </div>
                 
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.JSArrays')}}">
+                        <h4>Arrays</h4>
+                            <div class="icon">
+                                <img src="{{url('images/matrix.png')}}" alt="JSArrays"/>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.imageGalery')}}">
+                        <h4>Image galery</h4>
+                            <div class="icon">
+                                <img src="{{url('images/art.png')}}" alt="imageGalery"/>
+                            </div>
+                        </a>
+                    </div>
+            </div>
+
+
+            
+            <div class="row">
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.typeAheadFeature')}}">
+                        <h4>Type ahead feature</h4>
+                            <div class="icon">
+                                <img src="{{url('images/keyboard.png')}}" alt="typeAheadFeature"/>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.JSArrays2')}}">
+                        <h4>Arrays 2</h4>
+                            <div class="icon">
+                            <img src="{{url('images/matrix2.png')}}" alt="JSArrays2"/>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.canvas')}}">
+                        <h4>Canvas</h4>
+                            <div class="icon">
+                                <img src="{{url('images/painting.png')}}" alt="canvas"/>
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.tricks')}}">
+                        <h4>Tricks</h4>
+                            <div class="icon">
+                                <img src="{{url('images/magic.png')}}" alt="tricks"/>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.checkBoxes')}}">
+                        <h4>Check boxes</h4>
+                            <div class="icon">
+                                <img src="{{url('images/tick.png')}}" alt="checkBoxes"/>
+                            </div>
+                        </a>
+                    </div>
+
+            </div>
+
+
+            
+            <div class="row">
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.videoPlayer')}}">
+                        <h4>Video player</h4>
+                            <div class="icon">
+                                <img src="{{url('images/play.png')}}" alt="videoPlayer"/>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.konamiCode')}}">
+                        <h4>Konami code</h4>
+                            <div class="icon">
+                            <img src="{{url('images/password.png')}}" alt="konamiCode"/>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.slider')}}">
+                        <h4>Slider</h4>
+                            <div class="icon">
+                                <img src="{{url('images/slider.png')}}" alt="Image"/>
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.clock')}}">
+                        <h4>Clock</h4>
+                            <div class="icon">
+                                <img src="{{url('images/piano.png')}}" alt="Image"/>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.clock')}}">
+                        <h4>Clock</h4>
+                            <div class="icon">
+                                <img src="{{url('images/piano.png')}}" alt="Image"/>
+                            </div>
+                        </a>
+                    </div>
+
+            </div>
+
+            
+            <div class="row">
+                    <div class="col mine">
+                        <a class="cardlink" class="cardlink" href="{{ route('PagesController.piano')}}">
+                        <h4>Piano</h4>
+                            <div class="icon">
+                                <img src="{{url('images/piano.png')}}" alt="Piano"/>
+                            </div>
+                        </a>
+                    </div>
+
                     <div class="col mine">
                         <a class="cardlink" href="{{ route('PagesController.clock')}}">
                         <h4>Clock</h4>
@@ -23,132 +171,130 @@
                     </div>
 
                     <div class="col mine">
-                        <a href="{{ route('PagesController.piano')}}">
+                        <a class="cardlink" href="{{ route('PagesController.piano')}}">
                         <h4>Piano</h4>
                             <div class="icon">
-                                <img src="{{url('storage/icons/piano.png')}}" alt="Image"/>
+                                <img src="{{url('images/piano.png')}}" alt="Image"/>
                             </div>
                         </a>
                     </div>
                 
                     <div class="col mine">
-                        <a href="{{ route('PagesController.clock')}}">
+                        <a class="cardlink" href="{{ route('PagesController.clock')}}">
                         <h4>Clock</h4>
                             <div class="icon">
-                                <img src="{{url('storage/icons/piano.png')}}" alt="Image"/>
+                                <img src="{{url('images/piano.png')}}" alt="Image"/>
                             </div>
                         </a>
                     </div>
 
                     <div class="col mine">
-                        <a href="{{ route('PagesController.clock')}}">
+                        <a class="cardlink" href="{{ route('PagesController.clock')}}">
                         <h4>Clock</h4>
                             <div class="icon">
-                                <img src="{{url('storage/icons/piano.png')}}" alt="Image"/>
+                                <img src="{{url('images/piano.png')}}" alt="Image"/>
                             </div>
                         </a>
                     </div>
 
-              
-             
             </div>
+
+            
             <div class="row">
-                <div class="col-mine">
-                    <h4><a href="{{ route('PagesController.typeAheadFeature')}}">Day 6</a></h4>
-                    <h6>Type Ahead Feature</h6>
-                    <div class="icon">
-                        <img src="{{url('storage/icons/insert.png')}}" alt="Image"/>
+                    <div class="col mine">
+                        <a class="cardlink" class="cardlink" href="{{ route('PagesController.piano')}}">
+                        <h4>Piano</h4>
+                            <div class="icon">
+                                <img src="{{url('images/piano.png')}}" alt="Piano"/>
+                            </div>
+                        </a>
                     </div>
-                </div>
-                <div class="col-mine">
-                    <h4><a href="{{ route('PagesController.JSArrays2')}}">Day 7</a></h4>
-                    <h6>Manipulating with Arrays 2</h6>
-                    <div class="icon">
-                        <img src="{{url('storage/icons/insert.png')}}" alt="Image"/>
+
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.clock')}}">
+                        <h4>Clock</h4>
+                            <div class="icon">
+                            <img src="{{url('images/clock.png')}}" alt="Clock"/>
+                            </div>
+                        </a>
                     </div>
-                </div>
-                <div class="col-mine">
-                    <h4><a href="{{ route('PagesController.canvas')}}">Day 8</a></h4>
-                    <h6>Canvas</h6>
-                    <div class="icon">
-                        <img src="{{url('storage/icons/insert.png')}}" alt="Image"/>
+
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.piano')}}">
+                        <h4>Piano</h4>
+                            <div class="icon">
+                                <img src="{{url('images/piano.png')}}" alt="Image"/>
+                            </div>
+                        </a>
                     </div>
-                </div>
-                <div class="col-mine">
-                    <h4><a href="{{ route('PagesController.tricks')}}">Day 9</a></h4>
-                    <h6>Tricks</h6>
-                    <div class="icon">
-                        <img src="{{url('storage/icons/insert.png')}}" alt="Image"/>
+                
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.clock')}}">
+                        <h4>Clock</h4>
+                            <div class="icon">
+                                <img src="{{url('images/piano.png')}}" alt="Image"/>
+                            </div>
+                        </a>
                     </div>
-                </div>
-                <div class="col-mine">
-                    <h4><a href="{{ route('PagesController.checkBoxes')}}">Day 10</a></h4>
-                    <h6>Multiple checkboxes</h6>
-                    <div class="icon">
-                        <img src="{{url('storage/icons/insert.png')}}" alt="Image"/>
+
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.clock')}}">
+                        <h4>Clock</h4>
+                            <div class="icon">
+                                <img src="{{url('images/piano.png')}}" alt="Image"/>
+                            </div>
+                        </a>
                     </div>
-                </div>
-           
+
             </div>
+
+            
             <div class="row">
-                <div class="col-mine">
-                    <h4><a href="{{ route('PagesController.videoPlayer')}}">Day 11</a></h4>
-                    <h6>Video player</h6>
-                    <div class="icon">
-                        <img src="{{url('storage/icons/piano.png')}}" alt="Image"/>
-                    </div>              
-                </div>
-                <div class="col-mine">
-                <h4><a href="{{ route('PagesController.konamiCode')}}">Day 12</a></h4>
-                    <h6>KONAMI code</h6>
-                    <div class="icon">
-                        <img src="{{url('storage/icons/piano.png')}}" alt="Image"/>
-                    </div>    
-                </div>
-                <div class="col-mine">
-                3 of 3
-                </div>
-                <div class="col-mine">
-                2 of 3
-                </div>
-                <div class="col-mine">
-                3 of 3
-                </div>
-              
-            </div>
-            <div class="row">
-                <div class="col-mine">
-                1 of 3
-                </div>
-                <div class="col-mine">
-                2 of 3
-                </div>
-                <div class="col-mine">
-                3 of 3
-                </div>
-                <div class="col-mine">
-                2 of 3
-                </div>
-                <div class="col-mine">
-                3 of 3
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-mine">
-                1 of 3
-                </div>
-                <div class="col-mine">
-                2 of 3
-                </div>
-                <div class="col-mine">
-                3 of 3
-                </div>
-                <div class="col-mine">
-                2 of 3
-                </div>
-                <div class="col-mine">
-                3 of 3
-                </div>
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.piano')}}">
+                        <h4>Piano</h4>
+                            <div class="icon">
+                                <img src="{{url('images/piano.png')}}" alt="Piano"/>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.clock')}}">
+                        <h4>Clock</h4>
+                            <div class="icon">
+                            <img src="{{url('images/clock.png')}}" alt="Clock"/>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.piano')}}">
+                        <h4>Piano</h4>
+                            <div class="icon">
+                                <img src="{{url('images/piano.png')}}" alt="Image"/>
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.clock')}}">
+                        <h4>Clock</h4>
+                            <div class="icon">
+                                <img src="{{url('images/piano.png')}}" alt="Image"/>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.clock')}}">
+                        <h4>Clock</h4>
+                            <div class="icon">
+                                <img src="{{url('images/piano.png')}}" alt="Image"/>
+                            </div>
+                        </a>
+                    </div>
+
             </div>
         </div>
 @endsection

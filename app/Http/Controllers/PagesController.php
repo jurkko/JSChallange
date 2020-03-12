@@ -6,6 +6,12 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
+
+    public function thirtydaysJSchallange()
+    {
+        return view('30daysjavascriptchallange');
+    }
+
     public function piano()
     {
         return view('piano.piano');
@@ -16,10 +22,6 @@ class PagesController extends Controller
         return view('clock.clock');
     }
     
-    public function thirtydaysJSchallange()
-    {
-        return view('30daysjavascriptchallange');
-    }
 
     public function variables()
     {
@@ -71,5 +73,11 @@ class PagesController extends Controller
         return view('konamiCode.konamiCode');
     }
 
+    public function slider()
+    {
+        return view('slider.slider');
+    }
+
+    
     
 }
