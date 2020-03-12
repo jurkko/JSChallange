@@ -1,41 +1,20 @@
 
 @extends('layouts.app')
 
-@section('additional')
-<link href="{{ asset('css/welcomepage.css') }}" rel="stylesheet">
-@endsection
 
 @section('content')
     <div class="container">
         <div class="row">
             <div class="col-sm">
                 <div class="card-welcome">
-                    <div class="face face1">
-                        <div class="content">
-                            <img src="{{url('/images/js.png')}}">
-                            <h3>neki</h3>
+                    <a href="{{ route('PagesController.thirtydaysJSchallange')}}">
+                        <div class="face face1">
+                            <img class="welcome-img" src="{{url('/images/js.png')}}">
                         </div>
-                    </div>
-                    <div class="face face2">
-                        <div class="content">
-                            <p>nekiespignsčgjesghčo</p>
-                            <a class="nav-link" href="{{ route('PagesController.thirtydaysJSchallange')}}">30 days JS challange</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card-welcome">
-                    <div class="face face1">
-                        <div class="content">
-                            <img src="">
-                            <h3>neki</h3>
-                        </div>
-                    </div>
-                    <div class="face face2">
-                        <div class="content">
-                            <p>nekiespignsčgjesghčo</p>
-                            <a class="nav-link" href="{{ route('PagesController.thirtydaysJSchallange')}}">30 days JS challange</a>
+                    </a>
+                    <div class="face face2" id="1">
+                        <div class="content">                          
+                            <p id="dissapearing">Read more</p>
                         </div>
                     </div>
                 </div>
@@ -45,12 +24,28 @@
                     <div class="face face1">
                         <div class="content">
                             <img src="">
-                            <h3>neki</h3>
+                           
                         </div>
                     </div>
                     <div class="face face2">
                         <div class="content">
-                            <p>nekiespignsčgjesghčo</p>
+                            
+                            30 days JS challange</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card-welcome">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="">
+                          
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                        
                             <a class="nav-link" href="{{ route('PagesController.thirtydaysJSchallange')}}">30 days JS challange</a>
                         </div>
                     </div>

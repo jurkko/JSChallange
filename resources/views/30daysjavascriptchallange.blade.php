@@ -3,42 +3,54 @@
 @section('content')
         <div class="container">
             <div class="row">
-                <div class="col-mine">
-                    <h4><a href="{{ route('PagesController.piano')}}">Day 1</a></h4>
-                    <h6>Piano</h6>
-                    <div class="icon">
-                        <img src="{{url('storage/icons/piano.png')}}" alt="Image"/>
+                
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.piano')}}">
+                        <h4>Piano</h4>
+                            <div class="icon">
+                                <img src="{{url('images/piano.png')}}" alt="Piano"/>
+                            </div>
+                        </a>
                     </div>
-                </div>
-                <div class="col-mine">
-                <h4><a href="{{ route('PagesController.clock')}}">Day 2</a></h4>
-                    <h6>Clock</h6>
-                    <div class="icon">
-                        <img src="{{url('storage/icons/clock.png')}}" alt="Image"/>
+                
+                    <div class="col mine">
+                        <a class="cardlink" href="{{ route('PagesController.clock')}}">
+                        <h4>Clock</h4>
+                            <div class="icon">
+                            <img src="{{url('images/clock.png')}}" alt="Clock"/>
+                            </div>
+                        </a>
                     </div>
-                   
-                </div>
-                <div class="col-mine">
-                    <h4><a href="{{ route('PagesController.variables')}}">Day 3</a></h4>
-                        <h6>Updating CSS variables with JS</h6>
-                        <div class="icon">
-                            <img src="{{url('storage/icons/formula.png')}}" alt="Image"/>
-                        </div>
-                </div>
-                <div class="col-mine">
-                    <h4><a href="{{ route('PagesController.JSArrays')}}">Day 4</a></h4>
-                    <h6>Manipulating with Arrays</h6>
-                    <div class="icon">
-                        <img src="{{url('storage/icons/insert.png')}}" alt="Image"/>
+
+                    <div class="col mine">
+                        <a href="{{ route('PagesController.piano')}}">
+                        <h4>Piano</h4>
+                            <div class="icon">
+                                <img src="{{url('storage/icons/piano.png')}}" alt="Image"/>
+                            </div>
+                        </a>
                     </div>
-                </div>
-                <div class="col-mine">
-                    <h4><a href="{{ route('PagesController.imageGalery')}}">Day 5</a></h4>
-                    <h6>Manipulating with Arrays</h6>
-                    <div class="icon">
-                        <img src="{{url('storage/icons/insert.png')}}" alt="Image"/>
+                
+                    <div class="col mine">
+                        <a href="{{ route('PagesController.clock')}}">
+                        <h4>Clock</h4>
+                            <div class="icon">
+                                <img src="{{url('storage/icons/piano.png')}}" alt="Image"/>
+                            </div>
+                        </a>
                     </div>
-                </div>
+
+                    <div class="col mine">
+                        <a href="{{ route('PagesController.clock')}}">
+                        <h4>Clock</h4>
+                            <div class="icon">
+                                <img src="{{url('storage/icons/piano.png')}}" alt="Image"/>
+                            </div>
+                        </a>
+                    </div>
+
+              
+             
             </div>
             <div class="row">
                 <div class="col-mine">

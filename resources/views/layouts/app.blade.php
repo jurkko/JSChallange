@@ -6,7 +6,11 @@
 
         <title>Laravel</title>
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet"> 
+    <link href="{{ asset('css/main.css') }}" rel="stylesheet"> 
+    <link href="{{ asset('js/app.js') }}" type="text/javascript"> 
+    <!-- -->
+   
      @yield('additional')
     </head>
     <body>

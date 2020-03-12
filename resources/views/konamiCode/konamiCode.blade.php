@@ -15,6 +15,8 @@
     const pressed = [];
     const code = 'joke';
 
+    var im = new Inputmask("99-9999999");
+
     window.addEventListener('keyup', (e) => {
         console.log(e.key);
         pressed.push(e.key);
@@ -26,6 +28,7 @@
         }
 
     })
+
 </script>
 
 @endsection
