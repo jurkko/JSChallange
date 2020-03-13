@@ -28,5 +28,6 @@ Route::get('/checkBoxes', 'PagesController@checkBoxes')->name('PagesController.c
 Route::get('/videoPlayer', 'PagesController@videoPlayer')->name('PagesController.videoPlayer');
 Route::get('/konamiCode', 'PagesController@konamiCode')->name('PagesController.konamiCode');
 Route::get('/slider', 'PagesController@slider')->name('PagesController.slider');
+Route::get('/objectandarrays', 'PagesController@objectandarrays')->name('PagesController.objectandarrays');
 
 Route::get('/30daysJSchallange', 'PagesController@thirtydaysJSchallange')->name('PagesController.thirtydaysJSchallange');

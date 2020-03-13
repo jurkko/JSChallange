@@ -24,6 +24,7 @@
         "inputmask": "^5.0.3",
         "jquery": "^3.4.1",
         "jshint": "^2.11.0",
-        "popper.js": "^1.16.1"
+        "popper.js": "^1.16.1",
+        "three": "^0.114.0"
     }
 }

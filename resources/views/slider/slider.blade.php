@@ -65,15 +65,21 @@
    const sliderImages = document.querySelectorAll('.slide-in'); // all images
 
    function checkSlide(e) {
-     console.log(e);
-     console.log(window.scrollY);
+     //console.log(e);
+    // console.log(window.scrollY);
       sliderImages.forEach(sliderImage => {
         // (top of the screen - window height) - images height /2
         const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
        
-        const imageBottom = sliderImage.offsetTop + sliderImage.height; // how 
+        const imageBottom = sliderImage.offsetTop + sliderImage.height; // distance from top of the webpage + height of the image 
+        console.log(sliderImage.offsetTop);
+        console.log(sliderImage.height);
+        console.log(imageBottom);
         const isHalfShown = slideInAt > sliderImage.offsetTop;
+       // console.log(isHalfShown);
         const isNotScrolledPast = window.scrollY < imageBottom;
+        //console.log(isNotScrolledPast);
+
         if (isHalfShown && isNotScrolledPast) {
           sliderImage.classList.add('active');
           

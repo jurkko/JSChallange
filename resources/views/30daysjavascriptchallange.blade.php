@@ -131,7 +131,7 @@
                     </div>
                 
                     <div class="col mine">
-                        <a class="cardlink" href="{{ route('PagesController.clock')}}">
+                        <a class="cardlink" href="{{ route('PagesController.objectandarrays')}}">
                         <h4>Clock</h4>
                             <div class="icon">
                                 <img src="{{url('images/piano.png')}}" alt="Image"/>

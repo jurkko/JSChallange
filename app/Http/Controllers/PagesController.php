@@ -78,6 +78,12 @@ class PagesController extends Controller
         return view('slider.slider');
     }
 
+    public function objectandarrays()
+    {
+        return view('objectandarrays.objectandarrays');
+    }
+
+    
     
     
 }
