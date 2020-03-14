@@ -21,12 +21,14 @@
             </div>
             <div class="col-sm">
                 <div class="card-welcome">
-                    <div class="face face1">
-                        <div class="content">
-                            <img src="">
-                           
+                    <a href="{{ route('ThreejsController.threejs')}}">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="">
+                            
+                            </div>
                         </div>
-                    </div>
+                    </a>
                     <div class="face face2">
                         <div class="content">
                             

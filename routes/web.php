@@ -29,5 +29,8 @@ Route::get('/videoPlayer', 'PagesController@videoPlayer')->name('PagesController
 Route::get('/konamiCode', 'PagesController@konamiCode')->name('PagesController.konamiCode');
 Route::get('/slider', 'PagesController@slider')->name('PagesController.slider');
 Route::get('/objectandarrays', 'PagesController@objectandarrays')->name('PagesController.objectandarrays');
+Route::get('/localstorage', 'PagesController@localstorage')->name('PagesController.localstorage');
+
 
 Route::get('/30daysJSchallange', 'PagesController@thirtydaysJSchallange')->name('PagesController.thirtydaysJSchallange');
+Route::get('/threejs', 'ThreejsController@threejs')->name('ThreejsController.threejs');

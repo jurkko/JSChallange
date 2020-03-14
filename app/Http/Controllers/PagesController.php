@@ -83,6 +83,12 @@ class PagesController extends Controller
         return view('objectandarrays.objectandarrays');
     }
 
+
+    public function localstorage()
+    {
+        return view('localstorage.localstorage');
+    }
+
     
     
     
