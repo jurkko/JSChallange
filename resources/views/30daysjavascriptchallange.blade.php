@@ -137,7 +137,7 @@
                 
                     <div class="col mine">
                         <a class="cardlink" href="{{ route('PagesController.objectandarrays')}}">
-                        <h4>Clock</h4>
+                        <h4>Objects and Arrays</h4>
                             <div class="icon">
                                 <img src="{{url('images/piano.png')}}" alt="Image"/>
                             </div>
@@ -146,7 +146,7 @@
 
                     <div class="col mine">
                         <a class="cardlink" href="{{ route('PagesController.localstorage')}}">
-                        <h4>Clock</h4>
+                        <h4>Local storage</h4>
                             <div class="icon">
                                 <img src="{{url('images/piano.png')}}" alt="Image"/>
                             </div>
@@ -158,26 +158,26 @@
             
             <div class="row">
                     <div class="col mine">
-                        <a class="cardlink" class="cardlink" href="{{ route('PagesController.piano')}}">
-                        <h4>Piano</h4>
+                        <a class="cardlink" class="cardlink" href="{{ route('PagesController.textShadowEffect')}}">
+                        <h4>Shade effect</h4>
                             <div class="icon">
-                                <img src="{{url('images/piano.png')}}" alt="Piano"/>
+                                <img src="{{url('images/piano.png')}}" alt="textShadowEffect"/>
                             </div>
                         </a>
                     </div>
 
                     <div class="col mine">
-                        <a class="cardlink" href="{{ route('PagesController.clock')}}">
-                        <h4>Clock</h4>
+                        <a class="cardlink" href="{{ route('PagesController.sorting')}}">
+                        <h4>Sorting</h4>
                             <div class="icon">
-                            <img src="{{url('images/clock.png')}}" alt="Clock"/>
+                            <img src="{{url('images/clock.png')}}" alt="sorting"/>
                             </div>
                         </a>
                     </div>
 
                     <div class="col mine">
                         <a class="cardlink" href="{{ route('PagesController.piano')}}">
-                        <h4>Piano</h4>
+                        <h4></h4>
                             <div class="icon">
                                 <img src="{{url('images/piano.png')}}" alt="Image"/>
                             </div>

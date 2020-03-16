@@ -30,6 +30,8 @@ Route::get('/konamiCode', 'PagesController@konamiCode')->name('PagesController.k
 Route::get('/slider', 'PagesController@slider')->name('PagesController.slider');
 Route::get('/objectandarrays', 'PagesController@objectandarrays')->name('PagesController.objectandarrays');
 Route::get('/localstorage', 'PagesController@localstorage')->name('PagesController.localstorage');
+Route::get('/textShadowEffect', 'PagesController@textShadowEffect')->name('PagesController.textShadowEffect');
+Route::get('/sorting', 'PagesController@sorting')->name('PagesController.sorting');
 
 
 Route::get('/30daysJSchallange', 'PagesController@thirtydaysJSchallange')->name('PagesController.thirtydaysJSchallange');
