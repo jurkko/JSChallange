@@ -176,8 +176,8 @@
                     </div>
 
                     <div class="col mine">
-                        <a class="cardlink" href="{{ route('PagesController.piano')}}">
-                        <h4></h4>
+                        <a class="cardlink" href="{{ route('PagesController.sumOfAttributes')}}">
+                        <h4>Sum of attributes</h4>
                             <div class="icon">
                                 <img src="{{url('images/piano.png')}}" alt="Image"/>
                             </div>

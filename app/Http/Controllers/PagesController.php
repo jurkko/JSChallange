@@ -100,6 +100,9 @@ class PagesController extends Controller
         return view('Javascript30.sorting.sorting');
     }
     
-    
+    public function sumOfAttributes()
+    {
+        return view('Javascript30.sumOfAttributes.sumOfAttributes');
+    }
     
 }

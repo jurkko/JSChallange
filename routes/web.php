@@ -31,8 +31,8 @@ Route::get('/slider', 'PagesController@slider')->name('PagesController.slider');
 Route::get('/objectandarrays', 'PagesController@objectandarrays')->name('PagesController.objectandarrays');
 Route::get('/localstorage', 'PagesController@localstorage')->name('PagesController.localstorage');
 Route::get('/textShadowEffect', 'PagesController@textShadowEffect')->name('PagesController.textShadowEffect');
-Route::get('/sorting', 'PagesController@sorting')->name('PagesController.sorting');
-
+Route::get('/sorting', 'PagesController@sorting')->name('PagesController.sorting'); 
+Route::get('/sumOfAttributes', 'PagesController@sumOfAttributes')->name('PagesController.sumOfAttributes'); 
 
 Route::get('/30daysJSchallange', 'PagesController@thirtydaysJSchallange')->name('PagesController.thirtydaysJSchallange');
 Route::get('/threejs', 'ThreejsController@threejs')->name('ThreejsController.threejs');
