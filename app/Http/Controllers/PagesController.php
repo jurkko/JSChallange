@@ -104,5 +104,11 @@ class PagesController extends Controller
     {
         return view('Javascript30.sumOfAttributes.sumOfAttributes');
     }
+
+    public function webcam()
+    {
+        return view('Javascript30.webcam.webcam');
+    }
+    
     
 }
