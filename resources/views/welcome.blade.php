@@ -3,8 +3,10 @@
 
 
 @section('content')
+
     <div class="container">
         <div class="row">
+        <test></test>
             <div class="col-sm">
                 <div class="card-welcome">
                     <a href="{{ route('PagesController.thirtydaysJSchallange')}}">
@@ -38,22 +40,27 @@
                 </div>
             </div>
             <div class="col-sm">
-                <div class="card-welcome">
-                    <div class="face face1">
-                        <div class="content">
-                            <img src="">
-                          
+            <div class="card-welcome">
+                    <a href="{{ route('PagesController.thirtyDaysOfVue')}}">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="">
+                            
+                            </div>
                         </div>
-                    </div>
+                    </a>
                     <div class="face face2">
                         <div class="content">
-                        
-                            <a class="nav-link" href="{{ route('PagesController.thirtydaysJSchallange')}}">30 days JS challange</a>
+                            
+                            30 days VUE challange
+                            <example-component></example-component>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <test></test>
+        
     </div>
 
  @endsection

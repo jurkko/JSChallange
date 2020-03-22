@@ -15,6 +15,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+/*/////////Menu navigation/////////*/ 
+Route::get('/30daysJSchallange', 'PagesController@thirtydaysJSchallange')->name('PagesController.thirtydaysJSchallange');
+Route::get('/thirtyDaysOfVue', 'PagesController@thirtyDaysOfVue')->name('PagesController.thirtyDaysOfVue');
+Route::get('/threejs', 'ThreejsController@threejs')->name('ThreejsController.threejs');
+
+
+/*//////////30daysJavascript/////////*/
 Route::get('/piano', 'PagesController@piano')->name('PagesController.piano');
 Route::get('/clock', 'PagesController@clock')->name('PagesController.clock');
 Route::get('/variables', 'PagesController@variables')->name('PagesController.variables');
@@ -36,5 +43,7 @@ Route::get('/sumOfAttributes', 'PagesController@sumOfAttributes')->name('PagesCo
 Route::get('/webcam', 'PagesController@webcam')->name('PagesController.webcam'); 
 
 
-Route::get('/30daysJSchallange', 'PagesController@thirtydaysJSchallange')->name('PagesController.thirtydaysJSchallange');
-Route::get('/threejs', 'ThreejsController@threejs')->name('ThreejsController.threejs');
+/*//////////30daysVue/////////*/
+Route::get('/component1', 'PagesController@component1')->name('PagesController.component1'); 
+
+

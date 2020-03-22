@@ -12,6 +12,11 @@ class PagesController extends Controller
         return view('30daysjavascriptchallange');
     }
 
+    public function thirtyDaysOfVue()
+    {
+        return view('thirtyDaysOfVue');
+    }
+
     public function piano()
     {
         return view('Javascript30.piano.piano');
@@ -108,6 +113,13 @@ class PagesController extends Controller
     public function webcam()
     {
         return view('Javascript30.webcam.webcam');
+    }
+
+
+    /*///////////// Vue.js routing ////////////*/
+    public function component1()
+    {
+        return view('Vue30.component1');
     }
     
     

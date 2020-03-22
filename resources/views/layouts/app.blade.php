@@ -29,9 +29,13 @@
         </div>
     </nav>
    
-    <main class="py-4">
-            @yield('content')
-    </main>
+    <div id="app">
+        @yield("content")
+    </div>
+    <script src="/js/app.js"></script>
+  
+          
+
     @yield('javascript')
     </body>
 </html>
