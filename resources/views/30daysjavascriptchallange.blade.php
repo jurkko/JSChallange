@@ -194,8 +194,8 @@
                     </div>
 
                     <div class="col mine">
-                        <a class="cardlink" href="{{ route('PagesController.clock')}}">
-                        <h4>Clock</h4>
+                        <a class="cardlink" href="{{ route('PagesController.speechRecognition')}}">
+                        <h4>speechRecognition</h4>
                             <div class="icon">
                                 <img src="{{url('images/piano.png')}}" alt="Image"/>
                             </div>

@@ -115,6 +115,12 @@ class PagesController extends Controller
         return view('Javascript30.webcam.webcam');
     }
 
+    
+    public function speechRecognition()
+    {
+        return view('Javascript30.speechRecognition.speechRecognition');
+    }
+
 
     /*///////////// Vue.js routing ////////////*/
     public function component1()

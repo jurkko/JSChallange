@@ -41,6 +41,7 @@ Route::get('/textShadowEffect', 'PagesController@textShadowEffect')->name('Pages
 Route::get('/sorting', 'PagesController@sorting')->name('PagesController.sorting'); 
 Route::get('/sumOfAttributes', 'PagesController@sumOfAttributes')->name('PagesController.sumOfAttributes'); 
 Route::get('/webcam', 'PagesController@webcam')->name('PagesController.webcam'); 
+Route::get('/speechRecognition', 'PagesController@speechRecognition')->name('PagesController.speechRecognition'); 
 
 
 /*//////////30daysVue/////////*/
