@@ -42,7 +42,7 @@ Route::get('/sorting', 'PagesController@sorting')->name('PagesController.sorting
 Route::get('/sumOfAttributes', 'PagesController@sumOfAttributes')->name('PagesController.sumOfAttributes'); 
 Route::get('/webcam', 'PagesController@webcam')->name('PagesController.webcam'); 
 Route::get('/speechRecognition', 'PagesController@speechRecognition')->name('PagesController.speechRecognition'); 
-
+Route::get('/geolocation', 'PagesController@geolocation')->name('PagesController.geolocation'); 
 
 /*//////////30daysVue/////////*/
 Route::get('/component1', 'PagesController@component1')->name('PagesController.component1'); 

@@ -207,8 +207,8 @@
             
             <div class="row">
                     <div class="col mine">
-                        <a class="cardlink" class="cardlink" href="{{ route('PagesController.piano')}}">
-                        <h4>Piano</h4>
+                        <a class="cardlink" class="cardlink" href="{{ route('PagesController.geolocation')}}">
+                        <h4>Geolocation</h4>
                             <div class="icon">
                                 <img src="{{url('images/piano.png')}}" alt="Piano"/>
                             </div>

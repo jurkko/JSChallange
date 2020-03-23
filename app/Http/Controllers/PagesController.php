@@ -115,13 +115,16 @@ class PagesController extends Controller
         return view('Javascript30.webcam.webcam');
     }
 
-    
     public function speechRecognition()
     {
         return view('Javascript30.speechRecognition.speechRecognition');
     }
-
-
+    
+    public function geolocation()
+    {
+        return view('Javascript30.geolocation.geolocation');
+    }
+    
     /*///////////// Vue.js routing ////////////*/
     public function component1()
     {

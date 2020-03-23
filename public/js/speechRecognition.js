@@ -30,10 +30,6 @@ window.onload = () => {
       p = document.createElement('p');
       words.appendChild(p);
     }
-    
-    if(transcript.incudes('hej')){
-        console.log('gej');
-    }
 
   });
 
