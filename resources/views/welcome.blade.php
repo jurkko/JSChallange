@@ -53,7 +53,6 @@
                         <div class="content">
                             
                             30 days VUE challange
-                            <example-component></example-component>
                         </div>
                     </div>
                 </div>

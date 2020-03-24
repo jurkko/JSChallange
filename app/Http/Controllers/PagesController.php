@@ -124,6 +124,14 @@ class PagesController extends Controller
     {
         return view('Javascript30.geolocation.geolocation');
     }
+
+    public function followalonglinks()
+    {
+        return view('Javascript30.followalonglinks.followalonglinks');
+    }
+    
+    
+
     
     /*///////////// Vue.js routing ////////////*/
     public function component1()

@@ -1924,9 +1924,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      counter: 0,
+      message: 'henlo fren'
+    };
+  },
   mounted: function mounted() {
-    console.log('Component mounted.');
+    console.log('working');
   }
 });
 
@@ -90525,32 +90536,42 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-8 col-md-offset-2" }, [
-          _c("div", { staticClass: "panel panel-default" }, [
-            _c("div", { staticClass: "panel-heading" }, [
-              _vm._v("Example Component")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "panel-body" }, [
-              _vm._v(
-                "\n                    I'm an example component!\n                "
-              )
-            ])
-          ])
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-8 col-md-offset-2" }, [
+        _c("div", { staticClass: "panel panel-default" }, [
+          _c("div", { staticClass: "panel-heading" }, [
+            _vm._v("Example Component")
+          ]),
+          _vm._v(
+            "\n                " + _vm._s(_vm.user) + "\n                "
+          ),
+          _c("div", { staticClass: "panel-body" }, [
+            _vm._v(
+              "\n                   \n                    I'm an example component!\n                   "
+            ),
+            _c("h1", [_vm._v(_vm._s(_vm.message))])
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              on: {
+                click: function($event) {
+                  _vm.counter += 1
+                }
+              }
+            },
+            [_vm._v(" +1 ")]
+          ),
+          _vm._v(" "),
+          _c("p", [_vm._v(_vm._s(_vm.counter))])
         ])
       ])
     ])
-  }
-]
+  ])
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -102783,6 +102804,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('test', __webpack_require__
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+//Vue instance
 
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app'

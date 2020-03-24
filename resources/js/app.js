@@ -31,6 +31,7 @@ Vue.component('test', require('./components/test.vue'));
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+ //Vue instance
 const app = new Vue({
     el: '#app',
 });

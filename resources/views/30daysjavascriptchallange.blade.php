@@ -216,8 +216,8 @@
                     </div>
 
                     <div class="col mine">
-                        <a class="cardlink" href="{{ route('PagesController.clock')}}">
-                        <h4>Clock</h4>
+                        <a class="cardlink" href="{{ route('PagesController.followalonglinks')}}">
+                        <h4>follow along links</h4>
                             <div class="icon">
                             <img src="{{url('images/clock.png')}}" alt="Clock"/>
                             </div>
