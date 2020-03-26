@@ -44,6 +44,8 @@ Route::get('/webcam', 'PagesController@webcam')->name('PagesController.webcam');
 Route::get('/speechRecognition', 'PagesController@speechRecognition')->name('PagesController.speechRecognition'); 
 Route::get('/geolocation', 'PagesController@geolocation')->name('PagesController.geolocation'); 
 Route::get('/followalonglinks', 'PagesController@followalonglinks')->name('PagesController.followalonglinks'); 
+Route::get('/speechSynthesis', 'PagesController@speechSynthesis')->name('PagesController.speechSynthesis'); 
+
 
 
 /*//////////30daysVue/////////*/

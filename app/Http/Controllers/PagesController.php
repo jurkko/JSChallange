@@ -129,6 +129,12 @@ class PagesController extends Controller
     {
         return view('Javascript30.followalonglinks.followalonglinks');
     }
+
+    public function speechSynthesis()
+    {
+        return view('Javascript30.speechSynthesis.speechSynthesis');
+    }
+    
     
     
 

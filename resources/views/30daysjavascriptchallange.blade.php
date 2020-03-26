@@ -225,8 +225,8 @@
                     </div>
 
                     <div class="col mine">
-                        <a class="cardlink" href="{{ route('PagesController.piano')}}">
-                        <h4>Piano</h4>
+                        <a class="cardlink" href="{{ route('PagesController.speechSynthesis')}}">
+                        <h4>speech Synthesis</h4>
                             <div class="icon">
                                 <img src="{{url('images/piano.png')}}" alt="Image"/>
                             </div>
