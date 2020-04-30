@@ -23,7 +23,7 @@
         "bootstrap": "^4.4.1",
         "cheerio": "^1.0.0-rc.3",
         "inputmask": "^5.0.3",
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "jshint": "^2.11.0",
         "popper.js": "^1.16.1",
         "three": "^0.114.0",
